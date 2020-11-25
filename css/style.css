@@ -1,0 +1,185 @@
+body,
+html {
+    height: 100%
+}
+
+/*
+#particles-js canvas {
+    display: block;
+    vertical-align: bottom;
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+    opacity: 1;
+    -webkit-transition: opacity .8s ease, -webkit-transform 1.4s ease;
+    transition: opacity .8s ease, transform 1.4s ease
+}
+*/
+/*
+#particles-js{
+  width: 100%;
+  height: 100%;
+  background-color: #b61924;
+  background-image: url('');
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  
+}
+*/
+
+#particles-js {
+    width: 100%;
+    height: 100%;
+	background-color: #00022d; /*#b61924*/
+    position: fixed;
+    z-index: -10;
+    top: 0;
+    left: 0
+}
+
+.text {
+	position: absolute;
+	/*top: 50%;*/
+	/*right: 50%;*/
+	/*transform: translate(50%,-50%);*/
+	color: white;
+	/*max-width: 90%;*/
+	/*padding: 2em 3em;*/
+	/*background: rgba(0, 0, 0, 0.4);*/
+	/*text-shadow: 0px 0px 2px #131415;*/
+	/*font-family: 'Open Sans', sans-serif;*/
+}
+
+.container {
+	/*background: rgba(0, 0, 0, 0.4);*/
+	position: absolute;
+	top: 10%;
+	left: 5%;
+	right: 5%;
+	/*right: 50%;*/
+	/*padding: 2em 3em;*/
+}
+
+h1 {
+	color: white;
+	/*font-size: 2.25em;*/
+	/*font-weight: 700;*/
+	letter-spacing: -1px;
+	font-family: 'Solway', serif;
+}
+
+h5 {
+	color: gray;
+	/*font-size: 2.25em;*/
+	/*font-weight: 700;*/
+	/*letter-spacing: -1px;*/
+	font-family: 'Solway', serif;
+}
+
+p {
+	color: white;
+	/*font-size: 1.5em;*/
+	/*font-weight: 700;*/
+	/*letter-spacing: -1px;*/
+	font-family: 'Solway', serif;
+}
+
+a {
+  color: white;
+}
+
+
+.card {
+	background: rgba(0, 0, 0, 0.3);
+	border-color: rgba(0, 0, 0, 0);
+}
+
+
+
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  #main {
+	  width: 90%;
+	  top:100px;
+  }
+  
+  #profile_pic {
+	  /*width: 100%;*/
+	  margin-bottom: 1em;
+  }
+  
+  #about_me {
+  }
+  
+  #experience {
+	  
+  }
+  
+  #contact {
+	  
+  }
+  
+  #table {
+	  margin-bottom: 2em;
+  }
+  
+}
+
+@media only screen and (max-width: 2000px) {
+  /* For large screens: */
+  #main {
+	  top:149px
+  }
+  
+  #profile_pic2 {
+	  /*min-height: 100%;*/
+	  
+  }
+  
+  #about_me {
+	  /*height: 33%;*/
+	  /*position: absolute;
+	  top: 50%;
+	  -ms-transform: translateY(-50%);
+	  transform: translateY(-50%);*/
+  }
+  
+  #experience {
+	  /*height: 33%;*/
+	  /*position: absolute; 
+	  top: 50%; 
+	  -ms-transform: translateY(-50%); 
+	  transform: translateY(-50%);*/
+  }
+  
+  #contact {
+	  /*height: 33%;*/
+	  /*position: absolute; 
+	  top: 50%; 
+	  -ms-transform: translateY(-50%); 
+	  transform: translateY(-50%);*/
+  }
+  
+}
+/*
+.withOverflowingBackground {
+   position: relative;
+   background-color: transparent;
+}
+.withOverflowingBackground::before {
+   content: " ";
+   position: absolute;
+   top: -100px;
+   width: 25vw;
+   height: 25vh;
+   z-index: 1;
+   /*background-image: url(https://www.exratione.com/assets/color_background.png);*/
+  /* background-image: url('C:/Users/plstrboi/Documents/basic/img/christmas-hat.svg');
+   background-size: 20%;
+   background-repeat: no-repeat;*/
+ /*  background-position: 50% 50%;
+}*/
+
+
