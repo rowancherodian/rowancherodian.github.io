@@ -19,14 +19,14 @@ html {
 #particles-js{
   width: 100%;
   height: 100%;
-  background-color: #00022d;
+  background-color: #00000d;
 }
 */
 
 #particles-js {
     width: 100%;
     height: 100%;
-	background-color: #00022d; /*#b61924*/
+	background-color: #00000d; /*#b61924*/
     position: fixed;
     z-index: -10;
     top: 0;
